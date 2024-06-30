@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
+    "build": "react-scripts build",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "react-scripts": "latest",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/stack": "^6.3.29",
