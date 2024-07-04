@@ -1,7 +1,7 @@
 {
   "name": "twitterclone",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo/AppEntry.js",
   "scripts": {
     "build": "react-scripts build",
     "start": "expo start",
@@ -10,12 +10,6 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@babel/plugin-transform-private-methods": "^7.21.0",
-    "@babel/plugin-transform-nullish-coalescing-operator": "^7.21.0",
-    "@babel/plugin-transform-class-properties": "^7.21.0",
-    "lru-cache": "^10.0.0",
-    "@rollup/plugin-terser": "^9.0.0",
-    "@jridgewell/sourcemap-codec": "^1.4.14",
     "react-scripts": "latest",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.1.17",
@@ -30,7 +24,6 @@
     "react-native-screens": "^3.32.0"
   },
   "devDependencies": {
-    "rimraf": "^5.0.0",
     "@babel/core": "^7.20.0"
   },
   "private": true
